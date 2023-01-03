@@ -41,7 +41,7 @@ $(function () {
   //var advancedFormat = require('dayjs/plugin/advancedFormat')
   //dayjs.extend(advancedFormat)
 
-      $("#currentDay")[0].textContent = dayjs().format("dddd, MMMM D")
+      $("#currentDay")[0].textContent = dayjs().format("dddd, MMMM Do")
       var currentHour = dayjs().format("H")
     
     for (let i = 0; i < timeBlocks.length; i++) {
